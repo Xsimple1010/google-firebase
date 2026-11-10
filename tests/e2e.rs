@@ -33,7 +33,7 @@ struct RefreshResponse {
 fn env(name: &str) -> String {
     std::env::var(name).unwrap_or_else(|_| panic!("defina a variável {name}"))
 }
-w
+
 /// Tenta logar; se o usuário de teste ainda não existe, cria.
 async fn sign_in(http: &reqwest::Client, api_key: &str, email: &str, password: &str) -> SignInResponse {
     let body = json!({ "email": email, "password": password, "returnSecureToken": true });
