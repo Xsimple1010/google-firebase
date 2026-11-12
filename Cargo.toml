@@ -1,6 +1,6 @@
 [package]
 name = "google-firebase"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Mini-SDK: OAuth2 de service account (Google) + verificação de ID token e custom claims (Firebase Auth)"
 
